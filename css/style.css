@@ -1,5 +1,142 @@
 /* phần 1 name:  */
 
+.menu0{
+  z-index: 2;
+}
+.menu0 .use{
+  position: relative;
+}
+.menu0 .use .usebox{
+  width: 200px;
+  height: 100px;
+  display: none;
+  position: absolute;
+  bottom: -120px;
+  right: 5px;
+  background-color: #DBDBDB;
+}
+.menu0 .use .box{
+  width: 200px;
+  height: 50px;
+  bottom: -70px;
+}
+.menu0 .use .usebox a{
+  margin-top: 10px;
+  background: #ff5800; 
+  color: #fff; 
+  display: 
+  inline-block; 
+  width: 80%;
+  padding: 7px 12px; 
+  vertical-align: bottom; 
+  border-radius: 5px; 
+  line-height: 20px;
+}
+.menu0 .use .line{
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #DBDBDB;
+  position: absolute;
+  bottom: -20px;
+  right: 100px;
+  display: none;
+}
+.menu0 .use:hover .usebox{
+  display: block;
+}
+.menu0 .use:hover .line{
+  display: block;
+}
+.menu1{
+  list-style-type: none;
+  /*overflow: hidden;*/        
+  z-index: 1;
+  position: relative;
+}
+.menu1{
+  list-style-type: none;
+  /*overflow: hidden;*/        
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  position: relative;
+}
+.menu1 .dr1{
+  width: 200px;
+
+  position: absolute;
+  bottom: -200px;
+  left: 15px;
+  z-index: 6;
+}
+.menu1 ul li a.list{
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 18px; 
+}
+.menu1 ul li:hover a.list{
+
+  color: #fff;
+  background: #064C8D;
+  text-decoration: none;
+}
+.menu1 ul li ul.list1 li a:hover{
+  color: #064C8D;
+  text-decoration: none;
+}
+.menu1 ul li ul.list1{
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: -280px;
+}
+.menu1 ul li ul.list1 li{
+  list-style-type: none;
+}
+.menu1 ul li:hover ul.list1{
+  display: block;
+}
+.menu1 ul li.dichvu ul.list2{
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  bottom: -65px;
+  right: 200px;
+
+}
+.menu1 ul li.dichvu ul.list2 a{
+    text-decoration: none;
+    color: #06B4D9;
+}
+.menu1 ul li.dichvu:hover a{
+  background-color: #064C8D;
+}
+.menu1 ul li.dichvu:hover ul li a.zero{
+  background-color: #fff;
+}
+.menu1 ul li.dv1:hover ul.list2{
+  display: block;
+}
+.menu1 ul li.dv1:hover ul.list2 a:hover{
+  color: #064C8D;
+}
+.carousel-indicators li{
+  background-color: rgba(0,0,0,0);
+  border: 10px solid #fff;
+  border-radius: 15px;
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  margin: 5px;
+  text-indent: -999px;
+  cursor: pointer;
+
+}
 /* end phần 1 */
 
 /* phần 2 */
