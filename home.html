@@ -35,44 +35,39 @@
            </div>
         </nav>
         <!-- end nav -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light container menu0">
-            <a class="navbar-brand" href="index.html"><img src="https://www.rwlibrary.ca/en/images/structure/logo.png" width="250px" height="60px"></a>
-            
-            <form class=" input-group form-inline row " style=" width:500px; margin-bottom: 20px; margin-top: 20px;">
-        <div class="col-2"> 
-        </div>
-        <input class="form-control col-7" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-mdb-color btn-rounded btn-sm col-3 btn-info" type="submit"><i class="fas fa-search"></i>Tìm Kiếm</button>    
-        </form>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" style="width: 200px;" id="navbarNav">
-              <ul class="navbar-nav">
-                  <li class="nav-item use">
-                    <a class="nav-link text-info" href="#"><i class="fas fa-user-circle fa-3x float-left"></i> <p class="float-left" style="margin-top: 10px; margin-left: 5px;"><strong> Tài khoản</strong></p></a>
-                    <div class="usebox text-center">
-                      <a href="#" title="">Đăng nhập</a>
-                      <a href="#" title="">Đăng nhập</a>
-                    </div>
-                    <div class="line">
-                    </div>
-                  </li>
-                  <li class="nav-item use">
-                    <a class="nav-link text-info" href="#" ><i class="fas fa-shopping-cart fa-3x float-left"></i><p class="float-left" style="margin-top: 10px; margin-left: 5px;"><strong> Giỏ hàng</strong></p></a>
-                    <div class="usebox text-center box">
-                  <p>Giỏ hàng của bạn vẫn chưa có sản phẩm nào.</p>
+        <div class=" container menu0 ">
+          <div class="form-row">
+              <div class="logo col-lg-3 col-md-12 text-center">
+                 <img src="https://pbs.twimg.com/profile_images/3397366224/39d4f5b6ea902a421c393029680ea207.png" style="width:200px; height: 200px;">
               </div>
-              <div class="line">
+              <div class="col-lg-5 col-md-12">
+                <nav class="navbar navbar-light bg-light" style="margin-top: 50px; border-radius: 20px;">
+                  <form class="form-inline" style="margin: 0 auto;">
+                    <input class="form-control " type="search" placeholder="Search" aria-label="Search" style="width: 70%; height: 50px; ">
+                    <button class="btn btn-outline-info " type="submit" style="width:30%; height: 50px;">Search</button>
+                  </form>
+                </nav>
               </div>
-                 </li>
-              </ul>
-           </div>
-        </nav>
+              <div class="col-lg-4 form-row use0" style="margin-top: 50px;">
+                  <div class="col use">
+                      <a class="nav-link text-info" href="#"><i class="fas fa-user-circle fa-3x float-left"></i> <p class="float-left" style="margin-top: 10px; margin-left: 5px;"><strong> Tài khoản</strong></p></a>
+                      <div class="usebox text-center" style="z-index: 200;">
+                        <a href="#" title="">Đăng nhập</a>
+                        <a href="#" title="">Đăng ký</a>
+                      </div>
+                  </div>
+                  <div class="col use">
+                      <a class="nav-link text-info" href="#" ><i class="fas fa-shopping-cart fa-3x float-left"></i><p class="float-left" style="margin-top: 10px; margin-left: 5px;"><strong> Giỏ hàng</strong></p></a>
+                    <div class="usebox text-center box" style="z-index: 200;">
+                        <p>Giỏ hàng của bạn vẫn chưa có sản phẩm nào.</p>
+                    </div>
+                  </div>
+              </div>
+
         <!-- end nav -->
-    <div class="container-fluid bg-info menu1">
+    <div class="container-fluid bg-info menu1 d-md-none d-lg-block">
         <nav class="navbar navbar-expand-lg navbar-light bg-info menu container">
-      <div class="d-flex dr1">
+      <div class="d-flex dr1 d-md-none d-lg-block">
           <div class=" mr-1">
             <button type="button" class="btn text-light" style="background-color: #030798;">
               DANH MỤC SẢN PHẨM
@@ -135,10 +130,10 @@
                   <li class="nav-item dichvu">
                     <a class="nav-link" href="#" style="color: white;"><strong>Sản phẩm</strong></a>
                 </li>
-                  <li class="nav-item dichvu">
+                  <li class="nav-item dichvu  d-md-none d-lg-block">
                     <a class="nav-link" href="#" style="color: white;"><strong>Tin tức</strong></a>
                  </li>
-                 <li class="nav-item dichvu">
+                 <li class="nav-item dichvu  d-md-none d-lg-block">
                     <a class="nav-link" href="#" style="color: white;"><strong>Liên hệ</strong></a>
                 </li>
               </ul>
@@ -148,7 +143,7 @@
     </div> 
     <!-- end div -->
   <div class="container">
-    <div class="" style="background-color: #A8EFF7; width: 900px; height: 350px; float: right; z-index: -999;">
+    <div class=" menu2" style="">
       <div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
